@@ -4,6 +4,8 @@ import java.io.IOException;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -64,7 +66,7 @@ public class MainActivity extends Activity {
 					.newInstance("AndroidHttpClient");
 			HttpGet httpGet = new HttpGet(url_final);
 			String responseData = "";
-
+//			httpPost.setEntity(new StringEntity(params[0], HTTP.UTF_8));
 			
 			try {
 				HttpResponse reponse = cliente.execute(httpGet);
