@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.practicadasm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DasmActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DasmConsultaActivity"
+            android:label="@string/title_activity_dasm_consulta" >
+        </activity>
+        <activity
+            android:name=".DasmInsercionActivity"
+            android:label="@string/title_activity_dasm_insercion" >
+        </activity>
+        <activity
+            android:name=".DasmModificacionActivity"
+            android:label="@string/title_activity_dasm_modificacion" >
+        </activity>
+        <activity
+            android:name=".DasmBorradoActivity"
+            android:label="@string/title_activity_dasm_borrado" >
+        </activity>
+    </application>
+
+</manifest>
