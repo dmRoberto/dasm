@@ -8,5 +8,6 @@
     <string name="title_activity_dasm_insercion">DasmInsercionActivity</string>
     <string name="title_activity_dasm_modificacion">DasmModificacionActivity</string>
     <string name="title_activity_dasm_borrado">DasmBorradoActivity</string>
+    <string name="txtConsultaReg">Consulta de Registros</string>
 
 </resources>
